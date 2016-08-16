@@ -162,9 +162,7 @@
         <wsdl4j.version>1.6.3</wsdl4j.version>
     </properties>
 
-    <modules>
-        <module>webgoat-container</module>
-    </modules>
+
 
 
     <pluginRepositories>
