@@ -200,7 +200,7 @@
                   <plugin>
                		<groupId>com.blackducksoftware.integration</groupId>
                		<artifactId>hub-maven-plugin</artifactId>
-               		<version>1.0.1</version>
+               		<version>1.0.3</version>
                		<executions>
                    		<execution>
                        			<id>create-bdio-file</id>
