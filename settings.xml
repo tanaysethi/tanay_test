@@ -2,21 +2,23 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
                               https://maven.apache.org/xsd/settings-1.0.0.xsd">
-  <profiles>
-    <id>hub-build-info</id>
-    <properties>
-        <hub-url>https://hub-beta.blackducksoftware.com</hub-url>
-        <hub-user>sysadmin</hub-user>
-        <hub-password>blackduck</hub-password>
-        <hub-timeout>600</hub-timeout>
-        <hub-proxy-host></hub-proxy-host>
-        <hub-proxy-port></hub-proxy-port>
-        <hub-proxy-no-hosts></hub-proxy-no-hosts>
-        <hub-proxy-user></hub-proxy-user>
-        <hub-proxy-password></hub-proxy-password>
-    </properties>
-  </profiles>
-  <activeProfiles>
-    <activeProfile>hub-build-info</activeProfile>
-  </activeProfiles>
+          <profiles>
+                    <profile>
+                              <id>hub-build-info</id>
+                              <properties>
+                                        <hub-url>https://hub-beta.blackducksoftware.com</hub-url>
+                                        <hub-user>sysadmin</hub-user>
+                                        <hub-password>blackduck</hub-password>
+                                        <hub-timeout>600</hub-timeout>
+                                        <hub-proxy-host></hub-proxy-host>
+                                        <hub-proxy-port></hub-proxy-port>
+                                        <hub-proxy-no-hosts></hub-proxy-no-hosts>
+                                        <hub-proxy-user></hub-proxy-user>
+                                        <hub-proxy-password></hub-proxy-password>
+                              </properties>
+                    </profile>
+          </profiles>
+          <activeProfiles>
+                    <activeProfile>hub-build-info</activeProfile>
+          </activeProfiles>
 </settings>
