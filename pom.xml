@@ -197,22 +197,7 @@
             </dependencies>
             <build>
                 <plugins>
-                  <plugin>
-               		<groupId>com.blackducksoftware.integration</groupId>
-               		<artifactId>hub-maven-plugin</artifactId>
-               		<version>1.0.3</version>
-               		<executions>
-                   		<execution>
-                       			<id>create-bdio-file</id>
-                       			<phase>package</phase>
-                       			<goals>
-                           			<goal>createHubOutput</goal>
-                           			<goal>deployHubOutput</goal>
-                       			</goals>
-                   		</execution>
-                   	
-               		</executions>
-            	  </plugin>
+       
 		  <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-dependency-plugin</artifactId>
@@ -292,6 +277,22 @@
 
     <build>
         <plugins>
+        	          <plugin>
+               		<groupId>com.blackducksoftware.integration</groupId>
+               		<artifactId>hub-maven-plugin</artifactId>
+               		<version>1.0.3</version>
+               		<executions>
+                   		<execution>
+                       			<id>create-bdio-file</id>
+                       			<phase>package</phase>
+                       			<goals>
+                           			<goal>createHubOutput</goal>
+                           			<goal>deployHubOutput</goal>
+                       			</goals>
+                   		</execution>
+                   	
+               		</executions>
+            	  </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
