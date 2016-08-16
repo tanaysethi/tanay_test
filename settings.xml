@@ -2,7 +2,7 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
                               https://maven.apache.org/xsd/settings-1.0.0.xsd">
-  <profile>
+  <profiles>
     <id>hub-build-info</id>
     <properties>
         <hub-url>https://hub-beta.blackducksoftware.com</hub-url>
@@ -15,7 +15,7 @@
         <hub-proxy-user></hub-proxy-user>
         <hub-proxy-password></hub-proxy-password>
     </properties>
-  </profile>
+  </profiles>
   <activeProfiles>
     <activeProfile>hub-build-info</activeProfile>
   </activeProfiles>
