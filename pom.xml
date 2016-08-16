@@ -211,6 +211,22 @@
                		<groupId>com.blackducksoftware.integration</groupId>
                		<artifactId>hub-maven-plugin</artifactId>
                		<version>1.0.1</version>
+               		<executions>
+                   		<execution>
+                       			<id>create-bdio-file</id>
+                       			<phase>package</phase>
+                       			<goals>
+                           			<goal>createHubOutput</goal>
+                       			</goals>
+                   		</execution>
+                   		<execution>
+                       			<id>deploy-bdio-file</id>
+                       			<phase>deploy</phase>
+                       			<goals>
+                           			<goal>deployHubOutput</goal>
+                       			</goals>
+                   		</execution>
+               		</executions>
             	  </plugin>
 		  <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
