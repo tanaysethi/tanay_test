@@ -1,0 +1,18 @@
+  <activeProfiles>
+    <activeProfile>hub-build-info</activeProfile>
+  </activeProfiles>
+  
+  <profile>
+    <id>hub-build-info</id>
+    <properties>
+        <hub-url>https://hub-beta.blackducksoftware.com</hub-url>
+        <hub-user>sysadmin</hub-user>
+        <hub-password>blackduck</hub-password>
+        <hub-timeout>600</hub-timeout>
+        <hub-proxy-host></hub-proxy-host>
+        <hub-proxy-port></hub-proxy-port>
+        <hub-proxy-no-hosts></hub-proxy-no-hosts>
+        <hub-proxy-user></hub-proxy-user>
+        <hub-proxy-password></hub-proxy-password>
+    </properties>
+</profile>
