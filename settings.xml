@@ -6,8 +6,8 @@
                     <profile>
                               <id>hub-build-info</id>
                               <properties>
-                                        <hub-url>https://hub-beta.blackducksoftware.com</hub-url>
-                                        <hub-user>sysadmin</hub-user>
+                                        <hub-url>https://saleshub.blackducksoftware.com</hub-url>
+                                        <hub-user>CircleCI</hub-user>
                                         <hub-password>blackduck</hub-password>
                                         <hub-timeout>600</hub-timeout>
                                         <hub-proxy-host></hub-proxy-host>
