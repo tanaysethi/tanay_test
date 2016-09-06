@@ -10,10 +10,6 @@ clean:
  override:
   - mvn clean -s settings.xml
   
-compile:
- override:
-  -mvn compile -s settings.xml
-
 dependencies:
  override: 
   - mvn dependency:resolve -s settings.xml
