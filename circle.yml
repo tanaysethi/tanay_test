@@ -1,6 +1,7 @@
 general:
   artifacts:
-    - "webgoat-container/target"
+    - "webgoat-container"
+	
 	
 test:
   override:
