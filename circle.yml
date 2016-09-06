@@ -1,8 +1,3 @@
-general:
-  artifacts:
-    - "webgoat-container"
-	
-	
 test:
   override:
     - mvn clean -s settings.xml
