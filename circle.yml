@@ -2,6 +2,6 @@ test:
  override:
   - mvn compile -s settings.xml
   - mvn package -s settings.xml
-  commands:
+  post:
   - ./ScanMe.sh
   
