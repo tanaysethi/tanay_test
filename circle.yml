@@ -1,3 +1,6 @@
+general:
+  artifacts:
+  - "webgoat-parent_bdio.jsonld"
 test:
   override:
     - mvn clean -s settings.xml
