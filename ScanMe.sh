@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+java -version
 pwd
 chmod -R 777 /home/ubuntu/WebGoat/scan.cli-3.3.0
 export BDS_JAVA_HOME=/home/ubuntu/WebGoat/scan.cli-3.3.0/jre
