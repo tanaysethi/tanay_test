@@ -1,6 +1,10 @@
 test:
   override:
-  - mvn compile -s settings.xml
+  - mvn clean -s settings.xml
   - mvn package -s settings.xml
   - sh ./ScanMe.sh
+  
+ general:
+  artifacts:
+   - "webgoat-container/target/"
   
