@@ -289,7 +289,7 @@
                        <phase>package</phase>
                        <goals>
                            <goal>createHubOutput</goal>
-						   <goal>deployHubOutput</goal>
+                           <goal>deployHubOutput</goal>
                        </goals>
                    </execution>
                 </executions>
