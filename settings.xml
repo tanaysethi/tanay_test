@@ -6,9 +6,9 @@
                     <profile>
                               <id>hub-build-info</id>
                               <properties>
-                                        <hub-url>https://saleshub.blackducksoftware.com</hub-url>
-                                        <hub-user>CircleCI</hub-user>
-                                        <hub-password>blackduck</hub-password>
+                                        <hub-url>https://hubeval55.blackducksoftware.com</hub-url>
+                                        <hub-user>tanay</hub-user>
+                                        <hub-password>tanay</hub-password>
                                         <hub-timeout>600</hub-timeout>
                                         <hub-proxy-host></hub-proxy-host>
                                         <hub-proxy-port></hub-proxy-port>
