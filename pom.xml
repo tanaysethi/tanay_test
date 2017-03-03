@@ -10,7 +10,7 @@
     <name>WebGoat Parent Pom</name>
     <description>Parent Pom for the WebGoat Project. A deliberately insecure Web Application</description>
     <inceptionYear>2006</inceptionYear>
-    <url>https://github.com/WebGoat/WebGoat</url>
+    <url>https://github.com/tanaysethi/tanay_test/</url>
 
     <organization>
         <name>OWASP</name>
@@ -83,7 +83,7 @@
     </mailingLists>
 
     <scm>
-        <url>https://github.com/WebGoat/WebGoat</url>
+        <url>https://github.com/tanaysethi/tanay_test/</url>
         <connection>scm:git:git@github.com:WebGoat/WebGoat.git</connection>
         <developerConnection>scm:git:git@github.com:WebGoat/WebGoat.git</developerConnection>
       <tag>HEAD</tag>
@@ -91,7 +91,7 @@
 
     <issueManagement>
         <system>Github Issues</system>
-        <url>https://github.com/WebGoat/WebGoat/issues</url>
+        <url>https://github.com/tanaysethi/tanay_test/</url>
     </issueManagement>
 
     <ciManagement>
